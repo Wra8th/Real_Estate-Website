@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+.libre {
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: 700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.yellowish{
+  background-color: #fffb96;
+}
+
+.video-title {
+  background-color: rgba(0, 0, 0, 0.562);
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 25%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+.greyish{
+  background-color: grey;
 }
