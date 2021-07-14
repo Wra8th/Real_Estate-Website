@@ -1,0 +1,30 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+.libre {
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: 700;
+}
+
+.yellowish{
+  background-color: #fffb96;
+}
+
+.video-title {
+  background-color: rgba(0, 0, 0, 0.562);
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 25%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+.greyish{
+  background-color: grey;
+}
+.yellowe{
+  background-color: #FFCC00;
+}
+.bluee{
+  background-color:#003366;
+}
